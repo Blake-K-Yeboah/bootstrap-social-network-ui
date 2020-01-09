@@ -11,6 +11,7 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <title>Social Network - Explore</title>
+
 </head>
 
 <body style="background-color:#E9ECEF;">
@@ -42,7 +43,7 @@
 
     <div class="container pt-5">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 mb-5">
                 <div class="card">
                     <div class="card-header pt-4 pb-4">
                         <div class="media">
@@ -56,7 +57,7 @@
                     </div>
                     <div class="card-body text-center">
                         <ul class="list-group list-group-flush mb-5">
-                            <a class="list-group-item text-dark" href="#">View Profile</a>
+                            <a class="list-group-item text-dark" href="../profile/">View Profile</a>
                             <a class="list-group-item text-dark" href="#">Account Settings</a>
                         </ul>
                         <a href="#" class="btn btn-danger">Log Out</a>
@@ -97,7 +98,7 @@
         </div>
 
         <div class="row mt-5 mb-5">
-            <div class="col-md-4">
+            <div class="col-md-4 mb-4">
                 <div class="card">
                     <div class="card-header">
                         Popular Users
@@ -121,7 +122,8 @@
                                         style="width:64px;">
                                     <div class="media-body">
                                         <h5 class="mt-0">Blake Yeboah</h5>
-                                        Front End Developer<br> <a href="#" class="text-danger">View Profile</a>
+                                        Front End Developer<br> <a href="../profile/" class="text-danger">View
+                                            Profile</a>
                                     </div>
                                 </div>
                             </li>
@@ -169,7 +171,7 @@
                                         <span class="badge badge-danger">3</span>
                                     </div>
                                     <div class="card-footer text-muted">
-                                        Posted 3 mins ago by <a class="text-danger" href="#">Blake Yeboah</a>
+                                        Posted 3 mins ago by <a class="text-danger" href="../profile/">Blake Yeboah</a>
                                     </div>
                                 </div>
                             </div>
@@ -199,7 +201,7 @@
                                         <span class="badge badge-danger">0</span>
                                     </div>
                                     <div class="card-footer text-muted">
-                                        Posted 2 hours ago by <a class="text-danger" href="#">Blake Yeboah</a>
+                                        Posted 2 hours ago by <a class="text-danger" href="../profile/">Blake Yeboah</a>
                                     </div>
                                 </div>
                             </div>
@@ -231,7 +233,7 @@
                                         <span class="badge badge-danger">22</span>
                                     </div>
                                     <div class="card-footer text-muted">
-                                        Posted 2 days ago by <a class="text-danger" href="#">Blake Yeboah</a>
+                                        Posted 2 days ago by <a class="text-danger" href="../profile/">Blake Yeboah</a>
                                     </div>
                                 </div>
                             </div>
@@ -245,7 +247,7 @@
 
     </div>
 
-    <button type="button" class="btn btn-danger btn-sm" style="position:fixed;bottom:0;left:10px;" data-toggle="modal"
+    <button type="button" class="btn btn-danger btn-sm" style="position:fixed;bottom:0;left:20px;" data-toggle="modal"
         data-target="#messageModal">Messages</button>
 
     <!-- Message Modal -->
@@ -273,12 +275,13 @@
                             <div class="card card-body">
                                 <div class="row justify-content-center">
                                     <div class="col-md-5">
-                                        <span class="badge badge-pill badge-light">Hello There!</span>
+                                        <span class="badge badge-pill badge-light font-weight-light">Hello There!</span>
                                         <br>
                                         <small class="text-muted">Sent 2 mins ago</small>
                                     </div>
                                     <div class="col-md-5 text-right mt-5">
-                                        <span class="badge badge-pill badge-danger">Hey M8! How you doin?</span>
+                                        <span class="badge badge-pill badge-danger font-weight-light">Hey M8! How you
+                                            doin?</span>
                                         <br>
                                         <small class="text-muted">Sent 22 secs ago</small>
                                     </div>
@@ -301,24 +304,26 @@
                             <div class="card card-body">
                                 <div class="row justify-content-center">
                                     <div class="col-md-5">
-                                        <span class="badge badge-pill badge-light">Hello!</span>
+                                        <span class="badge badge-pill badge-light font-weight-light">Hello!</span>
                                         <br>
                                         <small class="text-muted">Sent 5 mins ago</small>
                                     </div>
                                     <div class="col-md-5 text-right mt-5">
-                                        <span class="badge badge-pill badge-danger">Hi</span>
+                                        <span class="badge badge-pill badge-danger  font-weight-light">Hi</span>
                                         <br>
                                         <small class="text-muted">Sent 2 mins ago</small>
                                     </div>
                                 </div>
                                 <div class="row justify-content-center">
                                     <div class="col-md-5">
-                                        <span class="badge badge-pill badge-light">How are you?</span>
+                                        <span class="badge badge-pill badge-light  font-weight-light">How are
+                                            you?</span>
                                         <br>
                                         <small class="text-muted">Sent 5 secs ago</small>
                                     </div>
                                     <div class="col-md-5 text-right mt-5">
-                                        <span class="badge badge-pill badge-danger">Im Good. Hbu?</span>
+                                        <span class="badge badge-pill badge-danger font-weight-light">Im Good.
+                                            Hbu?</span>
                                         <br>
                                         <small class="text-muted">Sent now</small>
                                     </div>
